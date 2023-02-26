@@ -39,7 +39,7 @@ public class Ticket {
 
         price= distanceRegulation(km,roundOrOneWay);
         price =ageDiscount(age,price);
-        System.out.println(price);
+        System.out.println("Your bus price :" +price);
 
 
     }
